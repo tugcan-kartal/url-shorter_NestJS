@@ -1,23 +1,23 @@
 ### URL Shortener Service
 
-## Proje Hakkında
+### Proje Hakkında
 Bu proje, uzun URL'leri kısaltır ve kullanıcılara kısa URL'ler ile yönlendirme yapmak amacıyla geliştirilen url servisidir.. Proje, NestJS ve Redis kullanıldı.
 
-## Kurulum
+### Kurulum
 
-# Adım 1: Paket yüklenmesi için
+### Adım 1: Paket yüklenmesi için
 Projenin bağımlılıkların hepsini yüklemek için aşağıdaki komutu çalıştırın:
 $ npm install
 
-# Adım 2 Redis Server’ı Başlatın
+### Adım 2 Redis Server’ı Başlatın
 $redis-server
 
-# Adım 3: Uygulamayı Çalıştırın
-# npm run start:dev
+### Adım 3: Uygulamayı Çalıştırın
+$npm run start:dev
 
 Uygulama, varsayılan default olarak http://localhost:3000 adresinde çalışcak.
 
-# Çalışma prensibi
+### Çalışma prensibi
 Şimdi isterseniz postman ile nasıl çalışacağını gösterelim
 Uzun bir URL’yi kısaltmak için POST isteği gönderebilirsiniz. İstek body’sinde url parametresi bulunmalıdır.
 
